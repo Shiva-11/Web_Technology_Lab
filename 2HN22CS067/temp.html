@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Time Table</title>
+<style>
+table {
+width: 80%;
+border-collapse: collapse;
+margin: 20px auto;
+}
+th, td {
+border: 1px solid black;
+padding: 10px;
+text-align: center;
+}
+th {
+background-color: #f2f2f2;
+}
+/* Row color options */
+tr:nth-child(even) {
+background-color: #e6f7ff; 
+}
+tr:nth-child(odd) {
+background-color: #ffffff;
+}
+
+.lab {
+background-color: #ffcccb; 
+}
+.elective {
+background-color:
+}
+
+.stackA {
+background-color: #ff6347; 
+}
+tfoot td {
+background-color: #f2f2f2;
+font-weight: bold;
+}
+</style>
+</head>
+<body>
+<table>
+<!-- Table Header -->
+<thead>
+<tr>
+<th colspan="8">Class Time Table</th>
+</tr>
+<tr>
+<th>Day</th>
+<th>9:00 - 10:00</th>
+<th>10:00 - 11:00</th>
+<th>11:10 - 12:00</th>
+<th>12:00 - 1:00</th>
+<th>2:00 - 3:00</th>
+<th>3:00 - 4:00</th>
+<th>4:00 - 5:00</th>
+</tr>
+</thead>
+<!-- Table Body -->
+<tbody>
+
+<tr>
+<td>Monday</td>
+<td>MCS</td>
+<td>OS</td>
+<td rowspan="1" colspan="2" class="lab">DDCO,OS Lab</td>
+<td>DSA</td>
+<td>DDCO</td>
+<td class="elective"> OOPJ</td>
+</tr>
+<tr>
+<td>Tuesday</td>
+<td>OS</td>
+<td>DSA</td>
+<td rowspan="1" colspan="2" class="lab">DDCO,OS Lab</td>
+<td>MCS</td>
+<td>DVP</td>
+<td>DDCO</td>
+</tr>
+<tr>
+<td>Wednesday</td>
+<td>DDCO</td>
+<td class="elective">OOPJ</td>
+<td rowspan="1" colspan="2" class="lab">DDCO,OS Lab</td>
+<td>MCS</td>
+<td rowspan="1" colspan="2" class="lab">OSL,OOPJ,DVP Lab</td>
+</tr>
+<tr>
+<td>Thursday</td>
+<td>DSA</td>
+<td>MCS</td>
+<td rowspan="1" colspan="2" class="lab">OSL,OOPJ,DVP Lab</td>
+<td>OS</td>
+<td>PE</td>
+<td>PE</td>
+</tr>
+<tr>
+<td>Friday</td>
+
+<td class="elective">OOPJ</td>
+<td>DDCO</td>
+<td rowspan="1" colspan="2" class="lab">OSL,OOPJ,DVP Lab</td>
+<td>OS</td>
+<td rowspan="1" colspan="2" class="stackA">Stack
+Activities</td>
+
+</tr>
+<tr>
+<td>Saturday</td>
+<td>OSL</td>
+<td>DSA</td>
+<td>SCR</td>
+<td>SCR</td>
+<td>OSL</td>
+<td>DSA</td>
+<td>SCR</td>
+</tr>
+</tbody>
+<!-- Table Footer -->
+<tfoot>
+<tr>
+<th colspan="8">End of the Week Schedule</td>
+</tr>
+</tfoot>
+</table>
+</body>
+</html>

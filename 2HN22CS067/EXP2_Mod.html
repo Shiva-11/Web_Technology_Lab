@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<title> Time Table</title>
+		<style>
+			table {
+			width: 80%;
+			border-collapse: collapse;
+			margin: 20px auto;
+			}
+			th, td {
+			border: 1px solid black;
+			padding: 10px;
+			text-align: center;
+			}
+			th {
+			background-color: #f2f2f2;
+			}
+			/* Row color options */
+			tr:nth-child(even) {
+			background-color: #e6f7ff; 
+			}
+			tr:nth-child(odd) {
+			background-color: #ffffff;
+			}
+
+			.lab {
+			background-color: #ffcccb; 
+			}
+			.elective {
+			background-color:
+			}
+
+			.stackA {
+			background-color: #ff6347; 
+			}
+			tfoot td {
+			background-color: #f2f2f2;
+			font-weight: bold;
+			}
+			.break{
+			background-color : #FFECA1;
+			font-family :cursive;
+			}
+			.mini-pr{
+			background-color : #DCFFE7;
+			}
+		</style>
+	</head>
+	<body>
+		<table>
+			<thead>
+				<tr>
+					<th colspan="10">Class Time Table</th>
+				</tr>
+			</thaed>
+			<tbody>
+				<tr>
+					<th>Day</th>
+					<th>09:00-10:00</th>
+					<th>10:00-11:00</th>
+					<th></th>
+					<th>11:10-12:00</th>
+					<th>12:00-01:00</th>
+					<th></th>
+					<th>02:00-03:00</th>
+					<th>03:00-04:00</th>
+					<th>04:00-05:00</th>
+				</tr>
+				<tr>
+					<td>Monday</td>
+					<td>RMIPR</td>
+					<td>SEPM</td>
+					<td rowspan="6" class="break">S<br>H<br>O<br>R<br>T<br><br>B<br>R<br>E<br>A<br>K</td>
+					<td>TOC</td>
+					<td>CN</td>
+					<td rowspan="6" class="break">L<br>U<br>N<br>C<br>H<br><br>B<br>R<br>E<br>A<br>K</td>
+					<td rowspan="1" colspan="2" class="lab">WTL(B2),CN(B1)</td>
+					<td>PE</td>
+				</tr>
+				<tr>
+					<td>Tuesday</td>
+					<td>SEPM</td>
+					<td>TOC</td>
+					<td>CN</td>
+					<td>RMIPR</td>
+					<td rowspan="1" colspan="2" class="lab">WTL(B1),CN(B3)</td>
+					<td>PE</td>
+				</tr>
+				<tr>
+					<td>Wednesday</td>
+					<td>ES</td>
+					<td>SEP</td>
+					<td>CN</td>
+					<td>AI</td>
+					<td rowspan="1" colspan="2" class="lab">WTL(B3),CN(B2)</td>
+					<td></td
+				</tr>
+				<tr>
+					<td>Thursday</td>
+					<td>AI</td>
+					<td>TOC</td>
+					<td>RMIPR</td>
+					<td>CN</td>
+					<td>TOC</td>
+					<td rowspan="1" colspan="2" class="mini-pr">MINI PROJECT</td>
+				</tr>
+				<tr>
+					<td>Friday</td>
+					<td>WTL</td>
+					<td>AI</td>
+					<td>RMIPR</td>
+					<td>SEP</td>
+					<td rowspan="1" colspan="2" class="mini-pr">MINI PROJECT</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Saturday</td>
+					<td>TOC</td>
+					<td>AI</td>
+					<td>TOC</td>
+					<td>AI</td>
+					<td rowspan="1" colspan="2" class="stackA">STAC ACTIVITY</td>
+					<td></td>
+				</tr>
+			</tbody>		
+			<tfoot>
+				<tr>
+					<th colspan="10">End of the Week Schedule</td>
+				</tr>
+			</tfoot>
+		</table>
+	</body>
+</html>
+	
